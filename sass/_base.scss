@@ -1,5 +1,6 @@
 body {
   padding: 8vw 16vw;
+  @include background;
 }
 a {
   color: $color__link;
@@ -13,5 +14,16 @@ a {
 
   .col {
     flex-basis: 50%;
+  }
+}
+
+//background image 
+@mixin background {
+  @if $show-home-image {
+    &#bg-img {
+      background: $home-image;
+      background-attachment: fixed;
+      background-size: cover;
+    }
   }
 }

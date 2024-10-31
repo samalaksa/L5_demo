@@ -2,7 +2,7 @@ $font__main: 'Sorts Mill Goudy', serif;
 $font__heading: 'Montserrat', sans-serif;
 
 $color__blue: #0b3887;
-$color__orange: #fb763d;
+$color__darkblue: #00508d;
 $color__grey: #a2abb0;
 $color__white: #ffffff;
 $color__block: #000000;
@@ -11,3 +11,9 @@ $color__background: #fefefe;
 
 $color__link: $color__blue;
 $color__link-hover: lighten($color__blue, 15%);
+
+//background image
+$show-home-image: true;
+$home-image: url(../img/background.jpg);
+$background-opacity: 0.9;
+
