@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $font__main: 'Sorts Mill Goudy', serif;
 $font__heading: 'Montserrat', sans-serif;
 
@@ -10,7 +12,7 @@ $color__block: #000000;
 $color__background: #fefefe;
 
 $color__link: $color__blue;
-$color__link-hover: lighten($color__blue, 15%);
+$color__link-hover: color.adjust($color__blue, $lightness: 15%);
 
 //background image
 
